@@ -4,7 +4,7 @@ Här lägger vi upp demos som vi gått igenom på lektionstid.
 
 ## Description
 
-Strukturen är per vecka och lektionstillfälle. Exempelvis **vecka9_tisdag**, **vecka9_torsdag** osv
+Strukturen är per vecka och lektionstillfälle. Exempelvis **vecka9_måndag**, **vecka9_onsdag** osv
 
 ## Notiser
 

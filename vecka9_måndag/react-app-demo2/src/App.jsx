@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import MyComp from './MyComp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +10,7 @@ function App() {
       <div>
         <h1>Hello World!</h1>
         <p>Lorem ipsum</p>
+        <MyComp />
       </div>
     </React.Fragment>
   )

@@ -9,7 +9,7 @@ Strukturen är per vecka och lektionstillfälle. Exempelvis **vecka9_måndag**, 
 ## Notiser
 
 - `node_modules` är borttagen. ni behöver göra en `npm install` per demo för att paketen skall installeras.
-- för **my-react-app-old** är git katalogen borttagen för att inte vara ett eget git repo i sig (det initieras när man kör `create-react-app` kommandot)
+- för **react-app-demo1** är git katalogen borttagen för att inte vara ett eget git repo i sig (det initieras när man kör `create-react-app` kommandot)
 - ni behöver inte köra `npm create vite@latest` för dessa repos då det redan är gjort. testa göra det själva dock för att sätta upp egna applikationer och `git init`
 
 ## Sätta upp applikationer själva
@@ -27,7 +27,12 @@ Strukturen är per vecka och lektionstillfälle. Exempelvis **vecka9_måndag**, 
    ```bash
    npm install
 
-3. Run locally:
+3. Run locally (vite):
 
    ```bash
    npm run dev
+
+4. Run locally (create-react-app):
+
+   ```bash
+   npm run start

@@ -1,0 +1,9 @@
+.demoClass {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* från App.jsx så importeras denna, typ:
+  import appStyles from './App.module.css' 
+  då får man ett objekt likt styled objects, och så lägger du till den med klassnamn som property:
+  <div className={appStyles.demoClass}>My content here</div>
+*/

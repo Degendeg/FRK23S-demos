@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 2rem;
+  margin-left: 10vw;
+}
+
+ul li a {
+  float: left;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.routes-wrapper {
+  margin-top: 25vh;
+}
+
+.card {
+  padding: 2em;
+}

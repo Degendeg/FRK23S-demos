@@ -9,8 +9,9 @@ const PORT = 3333;
   CORS middleware. Se: https://expressjs.com/en/resources/middleware/cors.html 
 */
 
-// Lista över tillåtna domäner för DELETE-förfrågningar
-const allowedDeleteDomains = ['http://10.60.84.28:5173'];
+// Lista över tillåtna domäner för DELETE-förfrågningar. 
+// TODO: ÄNDRA HÄR. Testa med ngrok: https://ngrok.com/download
+const allowedDeleteDomains = ['https://d18b-185-154-228-175.ngrok-free.app'];
 
 const corsOptions = (req, callback) => {
   let options = {
@@ -58,7 +59,6 @@ app.get('/api/data', (req, res) => {
 
 app.post('/api/post', (req, res) => {
   const { test } = req.body;
-  console.log('test', test);
   res.json('POST kördes! Du skickade: ' + test);
 });
 

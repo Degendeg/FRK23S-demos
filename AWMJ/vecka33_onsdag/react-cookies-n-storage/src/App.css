@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+sup {
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+  display: inline-block;
+  height: 34px;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 220px;
+  box-sizing: border-box;
+  padding: 0 18px;
+}
+
+h2 a {
+  color: white;
+}
+
+h2 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.box {
+  border: 1px solid gray;
+  margin: 10px;
+  border-radius: 5px;
+}

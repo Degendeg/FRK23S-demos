@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <!-- CSP meta tag 👎 -->
+  <!-- <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self'; connect-src 'self'; style-src 'self';"> -->
+  <!-- CSP meta tag 👍 -->
+  <!-- 
+    • default-src 'self': Specifies the default source for content such as scripts, images, and stylesheets. Only content from the same origin ('self') is allowed.
+    • img-src 'self' https://images.dog.ceo;: Specifies the allowed sources for loading images. Images from the same origin ('self') and from the specified external domain (https://images.dog.ceo) are permitted.
+    • connect-src 'self' https://dog.ceo;: Specifies the allowed sources for making network requests (e.g., fetch, XMLHttpRequest). Requests to the same origin ('self') and to the specified external domain (https://dog.ceo) are allowed.
+    • style-src 'self' 'sha256-YMep6YJtfTraQvoY0BaBCMbIwCSUtdll9zQKWRRvoBg=';: Specifies the allowed sources for loading stylesheets. Stylesheets from the same origin ('self') and inline styles with the specified hash ('sha256-YMep6YJtfTraQvoY0BaBCMbIwCSUtdll9zQKWRRvoBg=') are permitted.
+    The hash ensures that only styles with this specific hash value are allowed, providing a measure of security against inline style injection.
+   -->
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://images.dog.ceo;
+    connect-src 'self' https://dog.ceo; style-src 'self' 'sha256-sjQ8PmOl0lcWDyspH7qgq1AGOTai8DE0lzzRaCE/QQk=';">
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

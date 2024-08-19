@@ -1,0 +1,4 @@
+ta bort __ från .env så att den läggs till i klientapplikationen
+den är med i .gitignore, därav att jag gjort på detta sätt
+
+// sebbe

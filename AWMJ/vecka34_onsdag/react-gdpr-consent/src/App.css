@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.gdpr-info,
+.policy {
+  margin: 20px;
+}
+
+.gdpr-info,
+.policy h2 {
+  color: #61dafb;
+}
+
+.gdpr-info,
+.policy p {
+  font-size: 16px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+a {
+  color: #61dafb;
+}
